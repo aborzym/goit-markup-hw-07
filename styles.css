@@ -99,8 +99,8 @@ ul {
 .link:focus,
 .link-grey:hover,
 .link-grey:focus,
-.link-grey-footer:hover,
-.link-grey-footer:focus {
+.link-grey:hover,
+.link-grey:focus {
   text-decoration: none;
   color: var(--blue);
   fill: var(--blue);
@@ -128,12 +128,12 @@ ul {
 .header {
   border-bottom: 1px solid var(--header-border);
 }
-.header-content {
+.menu {
   display: flex;
   align-items: center;
 }
 
-.menu-logo {
+.menu__logo {
   /* padding-left: 215px; */
   padding-top: 24px;
   padding-bottom: 25px;
@@ -147,11 +147,11 @@ ul {
   text-decoration: none;
 }
 
-.menu-logo-black {
+.menu__logo--black {
   color: var(--black);
 }
 
-.menu-logo-white {
+.menu__logo--white {
   color: var(--white);
 }
 
