@@ -1,3 +1,4 @@
 .header {
+  @extend %container;
   border-bottom: 1px solid var(--header-border);
 }
