@@ -1,5 +1,5 @@
 .main-bottom {
-  background-color: var(--vlgrey);
+  background-color: $vlgrey;
 }
 .our-team {
   @extend %section;
@@ -26,7 +26,7 @@
 .our-team-card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: var(--white);
+  background-color: $white;
   border-radius: 0px 0px 4px 4px;
   &__photo {
     margin: 0;
@@ -50,7 +50,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--grey);
+    color: $grey;
   }
   &__socials {
     @extend %list;
@@ -64,18 +64,18 @@
     display: flex;
     width: 44px;
     height: 44px;
-    background-color: var(--white);
+    background-color: $white;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    fill: var(--icon-color-grey);
-    transition: background-color var(--transition-duration) var(--cubic-bezier),
-      fill var(--transition-duration) var(--cubic-bezier);
+    fill: $icon-color-grey;
+    transition: background-color $transition-duration $cubic-bezier,
+      fill $transition-duration $cubic-bezier;
     will-change: background-color, fill;
     &:hover,
     &:focus {
-      background-color: var(--blue);
-      fill: var(--white);
+      background-color: $blue;
+      fill: $white;
     }
   }
   &__social-icon {

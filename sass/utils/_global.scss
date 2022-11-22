@@ -1,7 +1,7 @@
 h4 {
   margin: 0;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -15,8 +15,8 @@ ul {
 
 %link {
   text-decoration: none;
-  color: var(--vdgrey);
-  transition: color var(--transition-duration) var(--cubic-bezier);
+  color: $vdgrey;
+  transition: color $transition-duration $cubic-bezier;
   will-change: color;
   &:visited {
     @extend %link;
@@ -24,20 +24,20 @@ ul {
   &:hover,
   &:focus {
     @extend %link;
-    color: var(--blue);
-    fill: var(--blue);
+    color: $blue;
+    fill: $blue;
   }
   &-grey {
     @extend %link;
-    color: var(--grey);
-    fill: var(--grey);
-    transition: color var(--transition-duration) var(--cubic-bezier),
-      fill var(--transition-duration) var(--cubic-bezier);
+    color: $grey;
+    fill: $grey;
+    transition: color $transition-duration $cubic-bezier,
+      fill $transition-duration $cubic-bezier;
     will-change: color, fill;
     &:hover,
     &:focus {
-      color: var(--blue);
-      fill: var(--blue);
+      color: $blue;
+      fill: $blue;
     }
   }
 }
@@ -71,8 +71,8 @@ ul {
 
 %active-page {
   text-decoration: none;
-  color: var(--blue);
-  fill: var(--blue);
+  color: $blue;
+  fill: $blue;
   position: relative;
   &::after {
     content: "";
@@ -81,7 +81,7 @@ ul {
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: var(--blue);
+    background-color: $blue;
     border-radius: 2px;
   }
 }

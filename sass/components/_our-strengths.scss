@@ -20,7 +20,7 @@
 .our-strengths-card__icon {
   padding: 25px 100px;
   margin-bottom: 30px;
-  background-color: var(--vlgrey);
+  background-color: $vlgrey;
   border-radius: 4px;
 }
 
@@ -44,5 +44,5 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--grey);
+  color: $grey;
 }

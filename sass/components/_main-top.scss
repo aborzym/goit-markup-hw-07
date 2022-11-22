@@ -1,8 +1,8 @@
 .main-top {
   padding: 200px 0;
   background: linear-gradient(
-      var(--main-image-linear-gradient),
-      var(--main-image-linear-gradient)
+      $main-image-linear-gradient,
+      $main-image-linear-gradient
     ),
     url(../images/background-image.jpg);
   background-size: cover;
@@ -20,7 +20,7 @@
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-    color: var(--white);
+    color: $white;
   }
   &__button {
     @extend %button;
@@ -29,8 +29,8 @@
     display: block;
     padding: 10px 42px;
     text-align: center;
-    color: var(--white);
-    background-color: var(--blue);
+    color: $white;
+    background-color: $blue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }

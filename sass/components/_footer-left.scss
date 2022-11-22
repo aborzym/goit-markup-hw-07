@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--dgrey);
+  background-color: $dgrey;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -20,7 +20,7 @@
   font-style: inherit;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--greyrgba);
+  color: $greyrgba;
 }
 
 .footer-contact-list {
@@ -31,7 +31,7 @@
   flex-direction: column;
   gap: 9px;
   &__address {
-    color: var(--white);
+    color: $white;
   }
   &__mail,
   &__phone {

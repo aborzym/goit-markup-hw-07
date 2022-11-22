@@ -15,15 +15,15 @@
     display: flex;
     width: 44px;
     height: 44px;
-    background-color: var(--footer-icon-bckgr);
+    background-color: $footer-icon-bckgr;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    transition: background-color var(--transition-duration) var(--cubic-bezier);
+    transition: background-color $transition-duration $cubic-bezier;
     will-change: background-color;
     &:hover,
     &:focus {
-      background-color: var(--blue);
+      background-color: $blue;
     }
   }
   &__icon {

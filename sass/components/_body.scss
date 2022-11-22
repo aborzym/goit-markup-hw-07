@@ -1,7 +1,7 @@
 body {
-  font-family: var(--font-family);
-  color: var(--vdgrey);
-  background-color: var(--white);
+  font-family: $font-family;
+  color: $vdgrey;
+  background-color: $white;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
